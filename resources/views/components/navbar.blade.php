@@ -1,5 +1,5 @@
 @props(['username'])
-<nav class="bg-[#DDEB9D] shadow-md p-4 flex justify-between items-center">
+<nav class="font-['Comic_Relief'] bg-[#DDEB9D] shadow-md p-4 flex justify-between items-center">
     <div class="flex items-center">
         <a href="{{ route('dashboard', ['username' => $username]) }}" class="flex items-center">
             <img src="{{ asset('images/Logo_AgroMart.png') }}" alt="Logo" class="w-20 inline-block ml-2">

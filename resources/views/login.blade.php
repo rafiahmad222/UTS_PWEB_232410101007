@@ -14,17 +14,17 @@
         </div>
 
         <h1 class="text-2xl font-bold text-center mb-4">Login</h1>
-        <p class="text-center mb-8">Welcome back! Please login to your account.</p>
+        <p class="text-center mb-8">Selamat datang kembali! Silakan masuk ke akun Anda.</p>
         <form id="login-form" action="{{ route('login.post') }}" method="POST">
             @csrf
             <div>
                 <label for="username" class="block text-lg font-medium text-gray-700">Username</label>
-                <input type="text" id="username" name="username" placeholder="Enter your username"
+                <input type="text" id="username" name="username" placeholder="Masukkan username"
                 class="w-full mb-6 border border-gray-300 rounded-md px-3 py-2 focus:border-green-500 focus:ring-green-600 focus:ring-1 focus:outline-none">
             </div>
             <div class="relative">
                 <label for="password" class="block text-lg font-medium text-gray-700">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password"
+                <input type="password" id="password" name="password" placeholder="Masukkan password"
                 class="w-full mb-8 border border-gray-300 rounded-md px-3 py-2 focus:border-green-500 focus:ring-green-600 focus:ring-1 focus:outline-none">
                 <button type="button" onclick="togglePassword()" class="absolute inset-y-0 right-4 flex items-center">
                     <img id="eye-icon" src="{{ asset('images/eye-icon-hide.png') }}" alt="Show Password" class="h-5 w-5">
@@ -68,12 +68,12 @@
     const errorMessage = document.getElementById('error-message');
     errorMessage.textContent = message;
     errorPopup.classList.remove('hidden');
-    errorPopup.classList.add('flex'); // Tambahkan kelas flex saat popup ditampilkan
+    errorPopup.classList.add('flex');
     }
 
     function closeErrorPopup() {
         const errorPopup = document.getElementById('error-popup');
-        errorPopup.classList.remove('flex'); // Hapus kelas flex saat popup disembunyikan
+        errorPopup.classList.remove('flex');
         errorPopup.classList.add('hidden');
     }
 </script>

@@ -1,5 +1,5 @@
 @props(['username'])
-<div class="w-64 bg-[#DDEB9D] h-screen">
+<div class="w-64 bg-[#DDEB9D] h-screen font-['Comic_Relief']">
     <div class="mt-4 mb-4 flex justify-center">
         <img src="{{ asset('images/Logo_AgroMart.png') }}" alt="Logo Hidroponik Jember" class="w-28 h-auto">
     </div>

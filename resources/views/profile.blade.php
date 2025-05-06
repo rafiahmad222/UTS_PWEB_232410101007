@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('slot')
-<div class="flex flex-col lg:flex-row gap-6 px-4 py-2">
+<div class="flex flex-col lg:flex-row gap-6 px-4 py-2 font-['Noto_Sans']">
     <div class="bg-white shadow-md rounded-lg p-6 w-full lg:w-1/2">
         <h3 class="text-lg font-bold text-gray-800 mb-4">Informasi Akun</h3>
         <div class="flex justify-center mb-4">

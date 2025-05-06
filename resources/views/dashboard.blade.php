@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Dashboard')
 @section('slot')
-    <div class="flex">
+    <div class="flex font-['Noto_Sans']">
         <x-sidebar :username="$username"></x-sidebar>
         <div class="flex-grow flex flex-col">
             @if (session('success'))

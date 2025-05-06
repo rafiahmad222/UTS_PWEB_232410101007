@@ -28,7 +28,7 @@ class PageController extends Controller
 
         $username = $request->input('username');
 
-        return redirect()->route('dashboard', ['username' => $username])->with('success', 'Login successful');
+        return redirect()->route('dashboard', ['username' => $username])->with('success', 'Berhasil login');
     }
 
     public function dashboard(Request $request)
