@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('slot')
 <div class="flex h-screen">
-    <div class="flex flex-col justify-center w-1/2 px-16 mt-4">
-        <div class="mt-4 flex justify-center">
+    <div class="flex flex-col justify-center w-1/2 px-16">
+        <div class="mt-2 flex justify-center mb-2">
             <img src="{{ asset('images/Logo_AgroMart.png') }}" alt="Logo" class="w-40">
         </div>
 
