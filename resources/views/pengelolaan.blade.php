@@ -15,6 +15,9 @@
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4">
     @foreach ($data as $item)
     <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div class="flex justify-center mb-4">
+            <img src="{{ asset('images/produk/' . $item['foto']) }}" alt="{{ $item['nama'] }}" class="w-32 h-32 object-fit rounded">
+        </div>
         <h3 class="text-lg font-semibold mb-2">{{ $item['nama'] }}</h3>
         <p class="text-gray-700">Harga: {{ $item['harga'] }}</p>
         <p class="text-gray-700">Stok: {{ $item['stok'] }}</p>

@@ -85,12 +85,48 @@ class PageController extends Controller
             return redirect()->route('login')->with('error', 'Please login first');
         }
         $data = [
-            ['nama' => 'Selada', 'harga' => '10000', 'stok' => '10', 'kategori' => 'Sayuran'],
-            ['nama' => 'Bawang Merah', 'harga' => '20000', 'stok' => '20', 'kategori' => 'Sayuran'],
-            ['nama' => 'Tomat', 'harga' => '15000', 'stok' => '15', 'kategori' => 'Sayuran'],
-            ['nama' => 'Jeruk', 'harga' => '30000', 'stok' => '5', 'kategori' => 'Buah'],
-            ['nama' => 'Apel', 'harga' => '25000', 'stok' => '8', 'kategori' => 'Buah'],
-            ['nama' => 'Pisang', 'harga' => '12000', 'stok' => '12', 'kategori' => 'Buah']
+            [
+                'nama' => 'Selada',
+                'harga' => '10000',
+                'stok' => '10',
+                'foto' => 'seladasegar.jpg',
+                'kategori' =>'Sayuran',
+            ],
+            [
+                'nama' => 'Bawang Merah',
+                'harga' => '20000',
+                'stok' => '20',
+                'foto' => 'bawang.png',
+                'kategori' => 'Sayuran',
+            ],
+            [
+                'nama' => 'Tomat',
+                'harga' => '15000',
+                'stok' => '15',
+                'foto' => 'tomat-segar.png',
+                'kategori' => 'Sayuran',
+            ],
+            [
+                'nama' => 'Jeruk',
+                'harga' => '30000',
+                'stok' => '5',
+                'foto' => 'jeruk.jpg',
+                'kategori' => 'Buah',
+            ],
+            [
+                'nama' => 'Apel',
+                'harga' => '25000',
+                'stok' => '8',
+                'foto' => 'apel.png',
+                'kategori' => 'Buah',
+            ],
+            [
+                'nama' => 'Pisang',
+                'harga' => '12000',
+                'stok' => '12',
+                'foto' => 'pisang-wenak.jpg',
+                'kategori' => 'Buah',
+            ]
         ];
         $kategoris = ['Sayuran', 'Buah'];
 
