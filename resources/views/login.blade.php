@@ -1,4 +1,5 @@
 @extends('layouts.app')
+
 @section('slot')
 <div class="flex h-screen">
     <div class="flex flex-col justify-center w-1/2 px-16">

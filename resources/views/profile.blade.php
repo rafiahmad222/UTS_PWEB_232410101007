@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Profile')
 @section('slot')
 <div class="flex flex-col lg:flex-row gap-6 px-4 py-2 font-['Noto_Sans']">
     <div class="bg-white shadow-md rounded-lg p-6 w-full lg:w-1/2">

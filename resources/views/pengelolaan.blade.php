@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Pengelolaan Produk')
 @section('slot')
 <h2 class="text-xl font-bold mt-4 mx-4">Pengelolaan Produk</h2>
 <div class="mb-4 flex justify-center">
